@@ -1,0 +1,21 @@
+{
+  "schema": "gas-lens-v1",
+  "verdict": "measured",
+  "source": "https://ethereum-rpc.publicnode.com",
+  "chain_id": 1,
+  "block": {
+    "number": "0x18fa209",
+    "hash": "0x63af72b9379fba0e92a775299a9708eadffdd12395b382b481ce7976567d361c",
+    "timestamp": "0x6acf62d7"
+  },
+  "call": {
+    "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+    "data": "0x18160ddd",
+    "value": "0x0"
+  },
+  "call_status": "returned",
+  "estimate_gas": "21469",
+  "max_gas": null,
+  "limits": "Provider-reported historical eth_estimateGas, not actual gas consumed. The provider chooses unspecified gas and fee context; its estimate may change with state, block, sender funds or client behavior. Saved RPC claims and headers are not authenticated. A matching limit does not establish execution, safety, authorization, future inclusion or an appropriate transaction gas limit. No transaction is signed or sent.",
+  "reason": "provider supplied a gas estimate; no limit was supplied"
+}

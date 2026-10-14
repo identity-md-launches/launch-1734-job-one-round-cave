@@ -1,0 +1,31 @@
+{
+  "schema": "gathering-visual-checks-v19",
+  "output": "artifacts/gathering/wall-v19.png",
+  "output_sha256": "889b623b4d93d5fc89e4c08d5e4b9376b87742505d3f1ab5e2e0e1914f935656",
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG, 8-bit RGB",
+  "addition_rectangle": [
+    280,
+    285,
+    490,
+    425
+  ],
+  "changed_pixels": 4426,
+  "changed_pixel_bounds": [
+    285,
+    292,
+    489,
+    424
+  ],
+  "changed_pixels_outside_addition": 0,
+  "left_hand_digits": 5,
+  "right_hand_digits": 5,
+  "new_hands": 0,
+  "unmet_visual_requirements_observed": [],
+  "review_limits": "Pixel conservation proves only the bounded addition; inherited hand counts and absence of forbidden marks were visually reviewed.",
+  "source_sha256": "7ee738f83c27cc07e18fa875cbef21df8da554560e1ed5ee6142e26875bc4348",
+  "image_tool": "built-in image generation, selectively composited"
+}

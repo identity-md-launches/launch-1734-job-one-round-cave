@@ -1,10 +1,12 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/250525790c1987cbb52114bd4e77926f023ac1dc10b73ffc2e1f56e32dfb8a36",
+  "name": "The Joining Path",
+  "image": "https://api.imd.fun/artifacts/889b623b4d93d5fc89e4c08d5e4b9376b87742505d3f1ab5e2e0e1914f935656",
   "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Moss"
-    }
+    {"trait_type": "Cave", "value": "Moss"},
+    {"trait_type": "Wall", "value": "Gathering"},
+    {"trait_type": "Number", "value": 19},
+    {"trait_type": "Left behind", "value": "Evidence Alignment"},
+    {"trait_type": "Meaning", "value": "Four small stones follow one path, keeping evidence joined only at the same place and time."},
+    {"trait_type": "One thing", "value": "Gathering"}
   ]
 }

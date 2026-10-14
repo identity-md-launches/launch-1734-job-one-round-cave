@@ -1,3 +1,3 @@
 none
 
-The four lines need pool arithmetic, measured ERC-20 permission evidence, historical runtime identity and call rehearsal. ZTO is the first coin and IMD the second; their real Uniswap v4 pool already serves Line 1. The shared dependency/call evidence join is ordinary standard-library Python and needs neither a new coin nor a hook. No line requires a new token to exist, so no launch request, coin order or deployment order is warranted. Nothing was signed, sent, paid or deployed.
+Line 1 needs the real ZTO/IMD Uniswap v4 pool; Lines 2–4 need historical token, runtime and call evidence. ZTO is the first coin and IMD the second, and both already serve those uses. The shared alignment guard is standard-library Python. No line needs a new coin to exist, so a v4 hook, launch request, coin order or deployment order would add nothing. Nothing was signed, sent, paid or deployed.
