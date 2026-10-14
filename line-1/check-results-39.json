@@ -1,0 +1,92 @@
+[
+  {
+    "tool": "zto-witness-policy",
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-1/tools/zto-witness-policy",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 14,
+    "output": "_recomputed) ... ok\ntest_raw_input_ceiling_and_boundary (test_policy.PolicyTests.test_raw_input_ceiling_and_boundary) ... ok\ntest_same_group_different_urls (test_policy.PolicyTests.test_same_group_different_urls) ... ok\ntest_simulated_distinct_approved_groups (test_policy.PolicyTests.test_simulated_distinct_approved_groups) ... ok\ntest_slippage_ceiling (test_policy.PolicyTests.test_slippage_ceiling) ... ok\ntest_strict_policy_types_and_keys (test_policy.PolicyTests.test_strict_policy_types_and_keys) ... ok\ntest_unknown_source_cannot_choose_own_group (test_policy.PolicyTests.test_unknown_source_cannot_choose_own_group) ... ok\ntest_wrong_anchor (test_policy.PolicyTests.test_wrong_anchor) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.351s\n\nOK\n"
+  },
+  {
+    "tool": "zto-witness-replay",
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-1/tools/zto-witness-replay",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 20,
+    "output": "and_workspace_boundary) ... ok\ntest_transaction_fields_refused (test_zto_witness_replay.ReplayTests.test_transaction_fields_refused) ... ok\ntest_wrong_block_anchor_withheld (test_zto_witness_replay.ReplayTests.test_wrong_block_anchor_withheld) ... ok\ntest_wrong_calldata_refused (test_zto_witness_replay.ReplayTests.test_wrong_calldata_refused) ... ok\ntest_wrong_to_quoter_source_and_block_refused (test_zto_witness_replay.ReplayTests.test_wrong_to_quoter_source_and_block_refused) ... ok\ntest_zero_output_withheld (test_zto_witness_replay.ReplayTests.test_zero_output_withheld) ... ok\ntest_zero_rounded_minimum_withheld (test_zto_witness_replay.ReplayTests.test_zero_rounded_minimum_withheld) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.397s\n\nOK\n"
+  },
+  {
+    "tool": "zto-witness",
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-1/tools/zto-witness",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 6,
+    "output": "_witness.WitnessTests.test_block_hash_mismatch_withholds) ... ok\ntest_demo_is_explicitly_single_source (test_zto_witness.WitnessTests.test_demo_is_explicitly_single_source) ... ok\ntest_failed_quoter_check_withholds (test_zto_witness.WitnessTests.test_failed_quoter_check_withholds) ... ok\ntest_matching_state_and_both_quoter_checks_release_floor_bound (test_zto_witness.WitnessTests.test_matching_state_and_both_quoter_checks_release_floor_bound) ... ok\ntest_pool_state_change_withholds (test_zto_witness.WitnessTests.test_pool_state_change_withholds) ... ok\ntest_source_label_is_ignored_but_pool_state_matches (test_zto_witness.WitnessTests.test_source_label_is_ignored_but_pool_state_matches) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.027s\n\nOK\n"
+  },
+  {
+    "tool": "zto-path",
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-1/tools/zto-path",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 17,
+    "output": "est_zto_path.PathTests.test_synthetic_boundary_no_double_crossing) ... ok\ntest_synthetic_downward_crossing_subtracts_signed_net (test_zto_path.PathTests.test_synthetic_downward_crossing_subtracts_signed_net) ... ok\ntest_synthetic_empty_range_refuses_at_coverage (test_zto_path.PathTests.test_synthetic_empty_range_refuses_at_coverage) ... ok\ntest_synthetic_known_zero_liquidity_gap (test_zto_path.PathTests.test_synthetic_known_zero_liquidity_gap) ... ok\ntest_synthetic_liquidity_underflow_rejected (test_zto_path.PathTests.test_synthetic_liquidity_underflow_rejected) ... ok\ntest_synthetic_upward_crossing_adds_liquidity (test_zto_path.PathTests.test_synthetic_upward_crossing_adds_liquidity) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.138s\n\nOK\n"
+  },
+  {
+    "tool": "zto-band",
+    "command": [
+      "python3",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "line-1/tools/zto-band",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit": 0,
+    "tests": 16,
+    "output": "st_offline_cli_does_not_construct_rpc) ... ok\ntest_pool_identity_and_real_decimals (test_zto_band.BandTests.test_pool_identity_and_real_decimals) ... ok\ntest_rational_delta_rounding (test_zto_band.BandTests.test_rational_delta_rounding) ... ok\ntest_real_quoter_regressions (test_zto_band.BandTests.test_real_quoter_regressions) ... ok\ntest_reject_corrupted_observation (test_zto_band.BandTests.test_reject_corrupted_observation) ... ok\ntest_rpc_allowlist_and_credential_rejection (test_zto_band.BandTests.test_rpc_allowlist_and_credential_rejection) ... ok\ntest_tick_extremes (test_zto_band.BandTests.test_tick_extremes) ... ok\ntest_zero_liquidity (test_zto_band.BandTests.test_zero_liquidity) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.056s\n\nOK\n"
+  }
+]

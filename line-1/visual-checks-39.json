@@ -1,0 +1,34 @@
+{
+  "ancestor_sha256": "edd316e0efe31a3ca6b467346c7b6a13b8b87d05fead22bb9b5a1fbb16f2d609",
+  "generated_pigment_sha256": "ed5e388d48be1149d4b0b235f4903cb4c427198467f1ddc789e7500f4848f6a4",
+  "wall_sha256": "6947fede085aa005ce2b4a54289e6f78439a8a6d654120ad0d3aae22751fc9e7",
+  "wall": {
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3995756
+  },
+  "jpeg": {
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 56818
+  },
+  "addition_box": [
+    855,
+    225,
+    1030,
+    302
+  ],
+  "source_pigment_bounds": [
+    88,
+    200,
+    1443,
+    807
+  ],
+  "changed_pixels_inside": 3940,
+  "changed_pixels_outside": 0,
+  "visual_review": "Inspected finished full wall and 512px JPEG. Earlier Pepe figures remain exact; both main inherited hands have four fingers and a thumb. No new hands, text, logos, borders or forbidden symbols. Two separate stone paths added only to previously unpainted upper-right rock.",
+  "unmet_visual_requirements": []
+}

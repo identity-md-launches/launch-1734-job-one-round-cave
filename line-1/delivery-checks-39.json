@@ -1,0 +1,11 @@
+{
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "allowed_paths_only": true,
+  "wall_mirrors_equal": true,
+  "record_hash_matches": true,
+  "record_count": 39,
+  "no_oversized_new_source": true,
+  "new_images_untracked": true,
+  "tests_passed": 73
+}
