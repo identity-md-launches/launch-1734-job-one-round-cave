@@ -1,0 +1,17 @@
+{
+  "attempts": [
+    {
+      "endpoint": "https://ethereum-rpc.publicnode.com",
+      "outcome": "failed",
+      "error": "RPC error: {\"code\": -32000, \"message\": \"historical state 3e9d3323004721f58b2580eedae650dc01958df3467975543547366b73cd3195 is not available\"}",
+      "partial_evidence_saved": false
+    },
+    {
+      "endpoint": "https://eth.drpc.org",
+      "outcome": "bytes_matched",
+      "block_number": 26187572,
+      "raw_evidence": "zto-code-bytes.json",
+      "note": "Historical code collected during this task; allowances are the ancestor inventory, not newly refreshed."
+    }
+  ]
+}

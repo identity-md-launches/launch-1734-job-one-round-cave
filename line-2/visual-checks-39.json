@@ -1,0 +1,29 @@
+{
+  "source_sha256": "7ad56676db544c2a9e77be3a8488880b8f7347e48e42a1013c98c8296da823e9",
+  "output_sha256": "768e2cdf01cfd8edd9b47e2d71b15517c7a0a8fa4a90d47c461620974d91dd37",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "channels": "8-bit RGB",
+  "placement": [
+    95,
+    435,
+    90,
+    130
+  ],
+  "changed_pixels": 9012,
+  "outside_placement_unchanged": true,
+  "preview": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 57983
+  },
+  "unmet_visual_requirements": [],
+  "visual_review": "Whole final PNG and JPEG inspected. Both inherited Pepe hands and upper stencil counted at five digits. No new hands, text, borders or prohibited symbols observed. No unmet visual requirements identified.",
+  "independently_rechecked_outside_changed_pixels": 0
+}

@@ -1,0 +1,248 @@
+{
+  "schema": "allowance-code-bytes-report-v1",
+  "status": "bytes_matched",
+  "bytes_matched": true,
+  "chain_id": 1,
+  "token": "ZTO",
+  "token_address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+  "block_number": 26187572,
+  "block_hash": "0xfbdf6fb511bd7ee2e74dd1b2bd8982e05e2d4cf8d10e495e6b9789bc50e7997f",
+  "measured_pair_count": 19,
+  "active_pair_count": 3,
+  "active_spender_count": 2,
+  "empty_balance_active_pair_count": 2,
+  "pairs": [
+    {
+      "owner": "0x051fae10d5237bf7262d8477e2771c14545b5b97",
+      "spender": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "3195388076109321647380316",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0x2c6b6955ea01546343c363d8efbb31fac3f8cfb2",
+      "spender": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0x35f4b9acd41584df18e88cc7ebfbd2ea1e270f62",
+      "spender": "0x4313c378cc91ea583c91387b9216e2c03096b27f",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0x37b4df3817b864d6afa56a21bd92933f4721a1b6",
+      "spender": "0x0000000000001ff3684f28c67538d4d072c22734",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0x4662b891269e2196e67cca73e4b7812dd91c7ae3",
+      "spender": "0x0000000000001ff3684f28c67538d4d072c22734",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "4156925955350016572884",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0x632ee80c099662ee9880d04a307401de195dabf8",
+      "spender": "0x765956a7307222346b08fff681820a5d77e92028",
+      "status": "active_permission_with_runtime",
+      "allowance_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": true,
+      "runtime": {
+        "bytes": 8285,
+        "sha256": "a7c56e8700c1e29c247625aaeb2f9daeb25a2a91b3a422a75566032a1c0b6df4"
+      }
+    },
+    {
+      "owner": "0x77460867cc5e9b19cda24040e0d28e08b6916c76",
+      "spender": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0x799feaf061773be889d8a029d7381e24f79ac08e",
+      "spender": "0x227be0f88ecb7899a0e6e0347888b909d622c8e1",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "789511340361653663252300",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0x824932206b216977e3a94094a9d6ecfc6851f0c8",
+      "spender": "0x02e5be68d46dac0b524905bff209cf47ee6db2a9",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "100000683029575604657695",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0xb78c3a71ecf26ade99056db53da01d78d3261e8f",
+      "spender": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
+      "spender": "0x0000000000001ff3684f28c67538d4d072c22734",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
+      "spender": "0x0005ea683517b3a4463bfd798c9850ad2d586795",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
+      "spender": "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0xbadb536e95f450a4978445d7a0e363a42ec37eb4",
+      "spender": "0x765956a7307222346b08fff681820a5d77e92028",
+      "status": "active_permission_with_runtime",
+      "allowance_raw": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": true,
+      "runtime": {
+        "bytes": 8285,
+        "sha256": "a7c56e8700c1e29c247625aaeb2f9daeb25a2a91b3a422a75566032a1c0b6df4"
+      }
+    },
+    {
+      "owner": "0xca1a6e5fe34293775fe0dd109d74539b567eec34",
+      "spender": "0x0000000000001ff3684f28c67538d4d072c22734",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "30552541524306096706135",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0xca1a6e5fe34293775fe0dd109d74539b567eec34",
+      "spender": "0x02e5be68d46dac0b524905bff209cf47ee6db2a9",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "30552541524306096706135",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0xcb3c89c1145055a88504e71f7c5ad733169be093",
+      "spender": "0x40aa958dd87fc8305b97f2ba922cddca374bcd7f",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0xd5d0448415e9cb4586aa0d801be1cecaa1b1e2f7",
+      "spender": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+      "status": "inactive_permission_code_not_required",
+      "allowance_raw": "0",
+      "balance_raw": "0",
+      "spendable_upper_bound_raw": "0",
+      "empty_balance_active_permission": false,
+      "runtime": null
+    },
+    {
+      "owner": "0xdd0c9e144197502537cef07eb7b7cb787c9d05ec",
+      "spender": "0x40aa958dd87fc8305b97f2ba922cddca374bcd7f",
+      "status": "active_permission_with_runtime",
+      "allowance_raw": "999363625607574787149845274",
+      "balance_raw": "636374392425212850154727",
+      "spendable_upper_bound_raw": "636374392425212850154727",
+      "empty_balance_active_permission": false,
+      "runtime": {
+        "bytes": 2133,
+        "sha256": "b7a42c1c65ed0b591fad1c32c22823e41c2e94caa431594851bbab03798d4161"
+      }
+    }
+  ],
+  "missing_active_spenders": [],
+  "extra_code_spenders": [],
+  "missing_byte_spenders": [],
+  "extra_byte_spenders": [],
+  "recomputed_spenders": [
+    {
+      "spender": "0x40aa958dd87fc8305b97f2ba922cddca374bcd7f",
+      "bytes": 2133,
+      "sha256": "b7a42c1c65ed0b591fad1c32c22823e41c2e94caa431594851bbab03798d4161"
+    },
+    {
+      "spender": "0x765956a7307222346b08fff681820a5d77e92028",
+      "bytes": 8285,
+      "sha256": "a7c56e8700c1e29c247625aaeb2f9daeb25a2a91b3a422a75566032a1c0b6df4"
+    }
+  ],
+  "sources": {
+    "runtime_report": "https://ethereum-rpc.publicnode.com",
+    "raw_code": "https://eth.drpc.org"
+  },
+  "complete_wallet_audit": false,
+  "input_sha256": {
+    "observation": "e1840875d1e730aa6c16453ffffcd8b386a634f2752c9cfd1311eb4103fb65b4",
+    "runtime": "1442cebe17586fdfc29f39e1c603e55af8c0826c030e958f0c47329457bc54ff",
+    "bytes": "c5b88791ae99666665adb8fd16257731b7fcd2ae0b585c331272c6b3d4a52769"
+  },
+  "limitations": [
+    "Recomputed SHA-256 binds bytes to reported hashes; RPC returns and block headers are still unauthenticated.",
+    "This is not an Ethereum account proof, code-behavior audit, permission approval or transaction authority.",
+    "Only measured standard ERC-20 pairs at this historical block are covered; current state and undiscovered authorizations remain unknown.",
+    "Empty balances and empty code never revoke a nonzero allowance; pair exposure bounds overlap per owner.",
+    "Proxy targets, delegated code, precompiles, controllers and future execution are not resolved."
+  ]
+}
