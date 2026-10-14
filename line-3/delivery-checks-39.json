@@ -1,0 +1,26 @@
+{
+  "delivery_passed": true,
+  "record": "dist/line-3/39.json",
+  "wall": "artifacts/line-3/wall-v19.png",
+  "wall_sha256": "6b265ee084c59107492703cd621e77071f21bc971ebe377acaef3eefc5fb8782",
+  "wall_format": "PNG",
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "thumbnail_format": "JPEG",
+  "thumbnail_dimensions": [
+    512,
+    512
+  ],
+  "thumbnail_bytes": 61666,
+  "record_count": 39,
+  "goal_text_matches": true,
+  "unmet_visual_requirements": [],
+  "scope": "Local byte and record checks; no independent behavioral or visual certification.",
+  "command": "python3 -B line-3/check_delivery_39.py",
+  "exit_code": 0,
+  "goal_and_all_older_records_git_diff_exit_code": 0,
+  "inherited_tools_changed": false,
+  "named_outputs_left_untracked": true
+}

@@ -1,0 +1,28 @@
+{
+  "ancestor_sha256": "f5e3781416f63b65cb5b8f762bd32905ab6eefe1790b9f7018281851d20e96b3",
+  "wall_sha256": "6b265ee084c59107492703cd621e77071f21bc971ebe377acaef3eefc5fb8782",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "mode": "RGB 8-bit",
+  "addition_box": [
+    983,
+    975,
+    1137,
+    1115
+  ],
+  "changed_pixels": 8589,
+  "changed_pixels_outside_addition": 0,
+  "thumbnail": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 61666
+  },
+  "unmet_visual_requirements": [],
+  "visual_review": "Inspected the final full PNG and 512px JPEG, then enlarged both inherited hands. Each has five digits (four fingers and one thumb); the addition contains no hands. The new branching trails sit below the inherited faded mark. All ancestor pixels outside the addition rectangle are unchanged. No prohibited text, numbers, signatures, logos, watermarks, frames or symbols were observed."
+}

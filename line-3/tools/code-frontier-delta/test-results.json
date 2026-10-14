@@ -1,0 +1,25 @@
+{
+  "schema": "local-contributor-checks-v1",
+  "checks": [
+    {
+      "command": "python3 -B line-3/tools/code-frontier-delta/demo.py > line-3/tools/code-frontier-delta/demo-result.json",
+      "exit_code": 0,
+      "demonstration_passed": true,
+      "real_comparisons": 2
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/code-frontier-delta -p 'test_*.py' -v",
+      "exit_code": 0,
+      "tests_passed": 17,
+      "tests_failed": 0
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-3/tools/code-dependency-frontier -p 'test_*.py' -v",
+      "exit_code": 0,
+      "tests_passed": 7,
+      "tests_failed": 0
+    }
+  ],
+  "independent_certification": false,
+  "note": "Local contributor checks. Real saved proofs are replayed offline; test-only reconstructed headers are explicitly synthetic and never saved as chain observations."
+}
