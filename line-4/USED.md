@@ -395,3 +395,32 @@ wall has 5,508 changed pixels inside it and zero outside. Inspected the full
 PNG and 512px JPEG. No hands were added; preserved tiny trail motifs retain the
 inherited five-digit ambiguity. See VISUAL-38.md and delivery-checks-38.json.
 Both final wall PNGs remain untracked for separate daemon upload.
+
+# Pepe 39 — The Ember Measure
+
+Kept GOAL.md, all previous records, and all previous tools unchanged. Read the
+gathering report: its Line 4 malformed-return defect had already been repaired
+by Pepe 38, with no open failing Line 4 check. Added **Gas Lens** in its own
+`tools/gas-lens/` folder. It reuses the reviewed Call Changes collector and
+Call Rehearsal transport, then measures `eth_estimateGas` for the identical
+call at the identical canonical finalized block hash. A reviewer may supply a
+gas ceiling; the tool never chooses one. A false, reverted or malformed
+rehearsal cannot pass that ceiling.
+
+Read and reused the existing `call-changes/call_changes.py`, its
+`rehearse_core.py`, and the standard-library `call-rehearsal/thumbnail.py`
+without modifying them. A live read-only PublicNode measurement of real ZTO
+`totalSupply()` returned 21,469 gas at block `0x18fa209`; an ad hoc read-only
+dRPC query at that same hash returned 21,469 too. The committed evidence is
+PublicNode only. Nine focused tests and the offline demo passed. No coin,
+package, key, wallet, secret, environment lookup, signature, transaction,
+payment, application post or deployment was used.
+
+Recovered record 38's public wall and verified its SHA-256. Used the built-in
+image editor to add a small charcoal arch and ochre ember in bare rock at the
+right of Pepe. The conservation helper kept exact ancestor pixels outside the
+addition rectangle, changed 4,260 pixels inside and zero outside. The full
+PNG and numbered JPEG were inspected. No hands, writing or border were added;
+the inherited tiny trail marks keep their earlier digit-count ambiguity. See
+`VISUAL-39.md`, `CHECKS-39.md` and `delivery-checks-39.json`. The named output
+PNG and continuing wall PNG remain untracked for separate upload.
